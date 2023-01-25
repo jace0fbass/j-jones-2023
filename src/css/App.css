@@ -1,3 +1,6 @@
+body {
+  background-color: #282c34
+}
 .App {
   text-align: center;
 }
@@ -14,14 +17,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgba(6, 5, 13, 0.921);
+  height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(255, 255, 255, 0.532);
 }
 
 .App-link {
@@ -40,11 +43,21 @@
 .card {
   border-style: solid;
   border-radius: 3px;
-  background-color: black;
+  border-color: rgba(255, 255, 255, 0.532);
+  background-color: rgba(6, 5, 13, 0.673);
+  color: rgba(245, 245, 245, 0.931)
+}
+.card-title {
+  font-size: 30px;
 }
 #portfolioBtns {
 margin-bottom: 15px;
-
+background-color: rgba(19, 15, 40, 0.921);
+color:white;
+font-size: 25px;
+padding: 15px;
+border-radius: 3px;
+border-color: rgba(255, 255, 255, 0.532);
 }
 #portCards {
   display: flex;
@@ -52,5 +65,5 @@ margin-bottom: 15px;
 }
 #singleProj {
   margin: 55px;
-  max-width: 25rem;
+  width: 25rem;
 }

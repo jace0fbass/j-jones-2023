@@ -6,8 +6,8 @@ export default function App() {
     <div className="App">
       <header className="App-header">
        <Header /> 
-       <Portfolio />
       </header>
+       <Portfolio />
     </div>
   );
 }

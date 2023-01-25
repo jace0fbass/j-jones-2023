@@ -9,10 +9,9 @@ return(
     <div className="card">
       {/* <img src="..." className="card-img-top" alt="..."> */}
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">laurenatmoonstone.com</h5>
         <h6>Skills used:</h6>
-      <button id="portfolioBtns">View Project</button>
+      <button href="https://laurenatmoonstone.com/" id="portfolioBtns">View Project</button>
       </div>
     </div>
   </div>
@@ -21,7 +20,7 @@ return(
       {/* <img src="..." className="card-img-top" alt="..."> */}
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        
         <h6>Skills used:</h6>
         <button id="portfolioBtns">View Project</button>
       </div>
@@ -32,7 +31,7 @@ return(
       {/* <img src="..." class="card-img-top" alt="..."> */}
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+       
         <h6>Skills used:</h6>
         <button id="portfolioBtns">View Project</button>
       </div>
@@ -43,7 +42,7 @@ return(
       {/* <img src="..." class="card-img-top" alt="..."> */}
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        
         <h6>Skills used:</h6>
         <button id="portfolioBtns">View Project</button>
       </div>
@@ -56,7 +55,7 @@ return(
       {/* <img src="..." className="card-img-top" alt="..."> */}
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        
         <h6>Skills used:</h6>
       <button id="portfolioBtns">View Project</button>
       </div>
@@ -67,7 +66,7 @@ return(
       {/* <img src="..." className="card-img-top" alt="..."> */}
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        
         <h6>Skills used:</h6>
         <button id="portfolioBtns">View Project</button>
       </div>
@@ -78,7 +77,7 @@ return(
       {/* <img src="..." class="card-img-top" alt="..."> */}
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+       
         <h6>Skills used:</h6>
         <button id="portfolioBtns">View Project</button>
       </div>
@@ -89,7 +88,7 @@ return(
       {/* <img src="..." class="card-img-top" alt="..."> */}
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        
         <h6>Skills used:</h6>
         <button id="portfolioBtns">View Project</button>
       </div>
@@ -102,7 +101,7 @@ return(
       {/* <img src="..." className="card-img-top" alt="..."> */}
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        
         <h6>Skills used:</h6>
       <button id="portfolioBtns">View Project</button>
       </div>
@@ -113,7 +112,7 @@ return(
       {/* <img src="..." className="card-img-top" alt="..."> */}
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        
         <h6>Skills used:</h6>
         <button id="portfolioBtns">View Project</button>
       </div>
@@ -124,7 +123,7 @@ return(
       {/* <img src="..." class="card-img-top" alt="..."> */}
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+       
         <h6>Skills used:</h6>
         <button id="portfolioBtns">View Project</button>
       </div>
@@ -135,7 +134,7 @@ return(
       {/* <img src="..." class="card-img-top" alt="..."> */}
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        
         <h6>Skills used:</h6>
         <button id="portfolioBtns">View Project</button>
       </div>
