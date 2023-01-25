@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  border-style: solid;
+  border-radius: 3px;
+  background-color: black;
+}
+#portfolioBtns {
+margin-bottom: 15px;
+
+}
+#portCards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#singleProj {
+  margin: 55px;
+  max-width: 25rem;
+}
