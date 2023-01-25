@@ -4,18 +4,8 @@ body {
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
 .App-header {
   background-color: rgba(6, 5, 13, 0.921);
   display: flex;
@@ -23,20 +13,6 @@ body {
   font-size: 30px;
   color: rgb(255, 255, 255);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .card {
   border-style: solid;
   border-radius: 3px;
@@ -55,6 +31,7 @@ body {
   padding: 15px;
   border-radius: 3px;
   border-color: rgba(255, 255, 255, 0.532);
+  text-decoration: none;
 }
 #portCards {
   display: flex;
@@ -65,11 +42,9 @@ body {
   width: 25rem;
   transition: transform 0.5s;
 }
-
 #singleProj:hover {
   transform: rotate(2deg);
 }
-
 #headerStyle {
   display: flex;
   justify-content: space-evenly;
@@ -88,7 +63,6 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
-
 #contact {
   margin-top: 70px;
   display: flex;
@@ -96,11 +70,9 @@ body {
   justify-content: space-evenly;
   background-color: #282c34;
 }
-
 #cIcon {
   padding: 20px;
 }
-
 #headshot {
   border-radius: 3px;
   border-style: solid;
@@ -124,7 +96,6 @@ body {
   margin-top: 25px;
   margin-bottom: 15px;
 }
-
 #resume {
   max-width: 50%;
   margin-left: 25%;
@@ -134,7 +105,6 @@ body {
   margin-top: 40px;
   margin-bottom: 50px;
 }
-
 #downloadBtn {
   margin-bottom: 15px;
   background-color: rgba(19, 15, 40, 0.921);
@@ -145,7 +115,6 @@ body {
   border-color: rgba(255, 255, 255, 0.532);
   text-decoration: none;
 }
-
 #resumeBtn {
   background-color: rgba(19, 15, 40, 0.921);
   color: white;
@@ -157,4 +126,9 @@ body {
   border-style: solid;
   border-width: 2px;
 }
-
+#resumeText {
+  margin-bottom: 40px;
+}
+.card-img-top {
+  max-width: 100%;
+}
