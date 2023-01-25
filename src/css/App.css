@@ -1,5 +1,5 @@
 body {
-  background-color: #282c34
+  background-color: #282c34;
 }
 .App {
   text-align: center;
@@ -40,21 +40,21 @@ body {
 .card {
   border-style: solid;
   border-radius: 3px;
-  border-color: rgba(255, 255, 255, 0.532);
+  border-width: 2px;
   color: rgba(6, 5, 13, 0.966);
-  background-color: rgba(245, 245, 245, 0.92)
+  background-color: rgba(245, 245, 245, 0.92);
 }
 .card-title {
   font-size: 30px;
 }
 #portfolioBtns {
-margin-bottom: 15px;
-background-color: rgba(19, 15, 40, 0.921);
-color:white;
-font-size: 25px;
-padding: 15px;
-border-radius: 3px;
-border-color: rgba(255, 255, 255, 0.532);
+  margin-bottom: 15px;
+  background-color: rgba(19, 15, 40, 0.921);
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 3px;
+  border-color: rgba(255, 255, 255, 0.532);
 }
 #portCards {
   display: flex;
@@ -63,16 +63,16 @@ border-color: rgba(255, 255, 255, 0.532);
 #singleProj {
   margin: 55px;
   width: 25rem;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 #singleProj:hover {
-    transform: rotate(2deg);
-  }
+  transform: rotate(2deg);
+}
 
 #headerStyle {
-display: flex;
-justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 #maName {
   display: flex;
@@ -83,7 +83,7 @@ justify-content: space-evenly;
   display: flex;
   align-items: center;
   margin-left: 150px;
-  color:rgba(255, 255, 255, 0.952);
+  color: rgba(255, 255, 255, 0.952);
   font-size: 40px;
   text-decoration: none;
   font-weight: 500;
@@ -91,14 +91,14 @@ justify-content: space-evenly;
 
 #contact {
   margin-top: 70px;
- display: flex;
- flex-direction: row;
- justify-content: space-evenly;
- background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #282c34;
 }
 
 #cIcon {
-  padding: 20px
+  padding: 20px;
 }
 
 #headshot {
@@ -113,13 +113,35 @@ justify-content: space-evenly;
   font-size: 30px;
   border-style: solid;
   border-radius: 3px;
+  border-width: 3px;
   padding: 20px;
   margin-left: 0px;
-  background-color: rgba(245, 245, 245, 0.92)
+  background-color: rgba(245, 245, 245, 0.92);
 }
 #AboutMe {
   display: flex;
   justify-content: space-evenly;
-margin-top: 25px;
-margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#resume {
+  max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  border-radius: 3px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+#downloadBtn {
+  margin-bottom: 15px;
+  background-color: rgba(19, 15, 40, 0.921);
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 3px;
+  border-color: rgba(255, 255, 255, 0.532);
+  text-decoration: none;
 }
