@@ -20,7 +20,7 @@ body {
   background-color: rgba(6, 5, 13, 0.921);
   display: flex;
   flex-direction: row;
-  font-size: calc(15px + 1vmin);
+  font-size: 30px;
   color: rgb(255, 255, 255);
 }
 
@@ -71,13 +71,26 @@ justify-content: space-evenly;
 #maName {
   display: flex;
   align-items: start;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 #navigate {
   display: flex;
   align-items: center;
-  padding-left: 150px;
+  margin-left: 150px;
   color:rgba(255, 255, 255, 0.952);
   font-size: 40px;
   text-decoration: none;
+  font-weight: 500;
+}
+
+#contact {
+  margin-top: 70px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ background-color: #282c34;
+}
+
+#cIcon {
+  padding: 20px
 }

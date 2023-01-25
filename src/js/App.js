@@ -1,6 +1,8 @@
 import "../css/App.css";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+
 export default function App() {
   return (
     <div className="App">
@@ -8,6 +10,9 @@ export default function App() {
        <Header /> 
       </header>
        <Portfolio />
+      <div>
+       <Contact />
+       </div>
     </div>
   );
 }
