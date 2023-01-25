@@ -18,13 +18,10 @@ body {
 
 .App-header {
   background-color: rgba(6, 5, 13, 0.921);
-  height: 70px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgba(255, 255, 255, 0.532);
+  flex-direction: row;
+  font-size: calc(15px + 1vmin);
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -44,8 +41,8 @@ body {
   border-style: solid;
   border-radius: 3px;
   border-color: rgba(255, 255, 255, 0.532);
-  background-color: rgba(6, 5, 13, 0.673);
-  color: rgba(245, 245, 245, 0.931)
+  color: rgba(6, 5, 13, 0.966);
+  background-color: rgba(245, 245, 245, 0.92)
 }
 .card-title {
   font-size: 30px;
@@ -66,4 +63,21 @@ border-color: rgba(255, 255, 255, 0.532);
 #singleProj {
   margin: 55px;
   width: 25rem;
+}
+#headerStyle {
+display: flex;
+justify-content: space-evenly;
+}
+#maName {
+  display: flex;
+  align-items: start;
+  padding-left: 30px;
+}
+#navigate {
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  color:rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  text-decoration: none;
 }
