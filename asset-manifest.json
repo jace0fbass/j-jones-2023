@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/j-jones-2023/static/css/main.f26cb70d.css",
+    "main.js": "/j-jones-2023/static/js/main.e0eba93a.js",
+    "static/media/moonstone.jpg": "/j-jones-2023/static/media/moonstone.11dcc1d82b17582274fd.jpg",
+    "static/media/musicalChairs.jpg": "/j-jones-2023/static/media/musicalChairs.745ed3739a5ef84aa0a4.jpg",
+    "static/media/artHub.jpg": "/j-jones-2023/static/media/artHub.9504b0f9ab2ab1a0ed96.jpg",
+    "static/media/teamProfileMaker.jpg": "/j-jones-2023/static/media/teamProfileMaker.3d2bc47d61c4757642c9.jpg",
+    "static/media/tekblahg.jpg": "/j-jones-2023/static/media/tekblahg.16e2b902414ffa15fe2c.jpg",
+    "static/media/workDayScheduler.jpg": "/j-jones-2023/static/media/workDayScheduler.535c74e72e490f933c02.jpg",
+    "static/media/read2me.jpg": "/j-jones-2023/static/media/read2me.91a02eefcb68337cf139.jpg",
+    "static/media/socialMediaApi.jpg": "/j-jones-2023/static/media/socialMediaApi.c57894587574514364ae.jpg",
+    "static/media/ecomBackEnd.jpg": "/j-jones-2023/static/media/ecomBackEnd.fdb2757d044aa2e984d5.jpg",
+    "static/media/empTracker.jpg": "/j-jones-2023/static/media/empTracker.2aef5a6338b1ba08a834.jpg",
+    "static/media/Screenshot_20220927-170400_DuckDuckGo.jpg": "/j-jones-2023/static/media/Screenshot_20220927-170400_DuckDuckGo.395e6a6071ae174673b9.jpg",
+    "index.html": "/j-jones-2023/index.html",
+    "main.f26cb70d.css.map": "/j-jones-2023/static/css/main.f26cb70d.css.map",
+    "main.e0eba93a.js.map": "/j-jones-2023/static/js/main.e0eba93a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f26cb70d.css",
+    "static/js/main.e0eba93a.js"
+  ]
+}
