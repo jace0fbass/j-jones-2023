@@ -4,17 +4,24 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import AboutMe from "./components/AboutMe";
 import Resume from "./components/Resume";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
+      <Header className="App-header" />
+      <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Resume" element={<Resume />} />
+        </Routes>
       <AboutMe />
       <Portfolio />
       <Resume />
       <Contact />
     </div>
+    </BrowserRouter>
   );
 }
