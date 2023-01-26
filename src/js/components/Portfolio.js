@@ -120,7 +120,7 @@ export default function Portfolio() {
           <div className="card">
             <img src={read2me} className="card-img-top" alt="..."height="263" />
             <div className="card-body">
-              <h5 className="card-title">Reed2Mii</h5>
+              <h5 className="card-title">Reed2Mii (mobile)</h5>
 
               <h6>Skills used:</h6>
               <a href="https://jace0fbass.github.io/read-2-me/" id="portfolioBtns">View Project</a>
