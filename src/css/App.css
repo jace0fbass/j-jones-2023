@@ -64,13 +64,16 @@ body {
   font-weight: 500;
 }
 #contact {
-  margin-top: 70px;
+  margin-top: 90px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
   background-color: #282c34;
 }
 #cIcon {
+  font-size: 50px;
+  text-decoration: none;
+  margin:10px;
   padding: 20px;
 }
 #headshot {
@@ -131,4 +134,10 @@ body {
 }
 .card-img-top {
   width: 100%;
+}
+
+#mailTo {
+  font-size: 60px;
+  text-decoration: none;
+  padding:20px;
 }
