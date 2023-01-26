@@ -19,7 +19,7 @@ export default function Portfolio() {
             <img src={moonstone} className="card-img-top" alt="..." height="263" />
             <div className="card-body">
               <h5 className="card-title">laurenatmoonstone.com</h5>
-              <h4>Skills:</h4><h6>HTML, CSS, Git</h6>
+              <h4>Skills:</h4><h6>HTML, CSS, Bootstrap, Git</h6>
               <a href="https://laurenatmoonstone.com/" id="portfolioBtns">
                 View Project
               </a>
@@ -34,7 +34,7 @@ export default function Portfolio() {
             <div className="card-body">
               <h5 className="card-title">Team Profile Maker</h5>
 
-              <h4>Skills:</h4><h6>Javascript, Inquirer, OOP, TDD, Node, Git</h6>
+              <h4>Skills:</h4><h6>HTML, CSS, Bootstrap, Javascript, Inquirer, OOP, TDD, Node, Git</h6>
               <a href="https://github.com/jace0fbass/team-profile-maker" id="portfolioBtns">View Project</a>
               <br></br>
               <br />
