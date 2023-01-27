@@ -47,22 +47,13 @@ body {
 }
 #headerStyle {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: between;
 }
 #maName {
-  display: flex;
-  align-items: flex-start;
-  padding-left: 50px;
+  font-size: 50px;
+  font-weight: 600;
 }
-#navigate {
-  display: flex;
-  align-items: center;
-  margin-left: 150px;
-  color: rgba(255, 255, 255, 0.952);
-  font-size: 40px;
-  text-decoration: none;
-  font-weight: 500;
-}
+
 #contact {
   margin-top: 90px;
   display: flex;
@@ -97,7 +88,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-top: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 55px;
 }
 #resume {
   max-width: 50%;
@@ -140,4 +131,22 @@ body {
   font-size: 60px;
   text-decoration: none;
   padding:20px;
+}
+
+.m-2 {
+  font-size: 50px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+#headerStyle {
+  background-color: #0e0e0e;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+ display: flex;
+margin-top: 15px;
 }
