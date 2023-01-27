@@ -4,6 +4,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import AboutMe from "./components/AboutMe";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
       <Portfolio />
       <Resume />
       <Contact />
+      <Footer />
     </div>
     </BrowserRouter>
   );

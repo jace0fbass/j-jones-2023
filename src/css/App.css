@@ -4,8 +4,6 @@ body {
 .App {
   text-align: center;
 }
-@media (prefers-reduced-motion: no-preference) {
-}
 .App-header {
   background-color: rgba(6, 5, 13, 0.921);
   display: flex;
@@ -52,6 +50,7 @@ body {
 #maName {
   font-size: 50px;
   font-weight: 600;
+  color: rgba(245, 245, 245, 0.92);
 }
 
 #contact {
@@ -150,3 +149,45 @@ body {
  display: flex;
 margin-top: 15px;
 }
+
+#footer {
+  font-size: 30px;
+  margin-top: 30px;
+  color: rgba(211, 211, 211, 0.92);;
+}
+@media (max-width: 390px) {
+  
+  #portCards {
+    display: flex;
+    flex-direction: column;
+  }
+  #AboutMe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 55px;
+    max-width: 100%
+  }
+  #bio {
+    max-width: 90%;
+  }
+  #resumeBtn {
+    background-color: rgba(19, 15, 40, 0.921);
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    border-color: rgba(255, 255, 255, 0.532);
+    border-style: solid;
+    border-width: 2px;
+  }
+  #resume {
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  }
