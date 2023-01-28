@@ -52,11 +52,14 @@ body {
 }
 
 #contact {
-  margin-top: 90px;
+  margin-top: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #282c34;
+  background-color: rgba(245, 245, 245, 0.92);
+  padding-bottom: 50px;
+  border-radius: 3px;
+  border-color: rgba(255, 255, 255, 0.532);
 }
 #cIcon {
   font-size: 50px;
@@ -184,6 +187,7 @@ margin-top: 15px;
   }
   #resumeText {
     font-size: 50px; 
+    margin-bottom: 101px
   }
 .App-header {
   max-width: 100%;
