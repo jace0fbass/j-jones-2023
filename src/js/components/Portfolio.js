@@ -1,19 +1,25 @@
 import React from "react";
-import ProjRender from './ProjRender'
-import ProjCardData from '../../ProjCardData'
+import ProjRender from "./ProjRender";
+import ProjCardData from "../../ProjCardData";
 
 export default function Portfolio() {
-
-  const[projList, setProjList] = useState(ProjCardData)
-
+  const [projList, setProjList] = useState(ProjCardData);
 
   return (
     <div id="portCards">
       <div className="row row-cols-1 row-cols-md-3 g-4">
-        {
-          
-        }
-
+        {projectList.map((project) => (
+          <ProjRender
+            id={project.id}
+            title={project.title}
+            desc={project.description}
+            tech={project.data}
+            imageRoute={project.imageRoute}
+            alt={project.alt}
+            link={project.deployedLink}
+            repo={project.githubLink}
+          />
+        ))}
 
         {/* <div id="singleProj" className="col">
           <div className="card">
@@ -251,9 +257,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div> */}
-
       </div>
-
     </div>
   );
 }
