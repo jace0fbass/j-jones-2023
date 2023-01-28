@@ -6,6 +6,7 @@ export default function Contact() {
       <div id="contactCard">
      <div id="contact" className="row">
       <div>
+        <h1 id="resume">Contact</h1>
         <a id="mailTo" href="mailto:jajones414@gmail.com">jajones414@gmail.com</a>
         <br></br>
         <br/>
