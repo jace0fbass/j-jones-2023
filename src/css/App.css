@@ -155,21 +155,24 @@ margin-top: 15px;
   margin-top: 30px;
   color: rgba(211, 211, 211, 0.92);;
 }
-@media (max-width: 390px) {
-  
+@media (max-width: 500px) {
+  .App {
+    max-width: 100%;
+  }
   #portCards {
     display: flex;
     flex-direction: column;
   }
   #AboutMe {
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin-top: 25px;
     margin-bottom: 55px;
     max-width: 100%
   }
   #bio {
-    max-width: 90%;
+    max-width:100%;
+    font-size: 40px;
+    padding-bottom: 60px;
   }
   #resumeBtn {
     background-color: rgba(19, 15, 40, 0.921);
@@ -183,11 +186,67 @@ margin-top: 15px;
     border-width: 2px;
   }
   #resume {
-    max-width: 300px;
+    max-width: 100%;
     padding: 20px;
     border-radius: 3px;
     margin-top: 40px;
     margin-bottom: 50px;
   }
+.App-header {
+  max-width: 100%;
+}
+#headerStyle {
+  display: flex;
+  flex-direction: column;
+ }
+ .navbar {
+  display: flex;
+ ;
+ }
+ #maName {
+  font-size: 100px;
+  margin: 10px;
+  margin-top: 15px;
+ }
+ #headshot {
+width: 90%;
+ }
+ #portCards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#singleProj {
+  margin: 55px;
+  width: 86%;
+  transition: transform 0.5s;
+}
+#singleProj:hover {
+  transform: rotate(2deg);
+}
+#portCards {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.card-title {
+  font-size: 50px;
+  margin-bottom: -20px;
+}
 
+h4, h6 {
+  font-size: 40px;
+}
+h4 {
+  margin-bottom: -70px;
+}
+#portfolioBtns {
+  margin-bottom: 15px;
+  background-color: rgba(19, 15, 40, 0.921);
+  color: white;
+  font-size: 45px;
+  padding: 15px;
+  border-radius: 3px;
+  border-color: rgba(255, 255, 255, 0.532);
+  text-decoration: none;
+}
   }

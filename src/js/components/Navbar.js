@@ -6,7 +6,7 @@ function Navbar() {
 
     return (
 <nav id="navigate" className="navbar mx-auto">
-    <Link className="m-2" to="/AboutMe">About Me</Link>
+    <Link className="m-2" to="/AboutMe">About</Link>
     <Link className="m-2" to="/Portfolio">Portfolio</Link>
     <Link className="m-2" to="/Resume">Resume</Link>
     <Link className="m-2" to="/Contact">Contact</Link>
