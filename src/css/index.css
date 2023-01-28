@@ -14,7 +14,5 @@ code {
     monospace;
 }
 @media (max-width: 500px) {
-  body {
-    max-width: 500px;
-  }
+ 
 }
