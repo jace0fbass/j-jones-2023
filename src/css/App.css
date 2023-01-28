@@ -146,6 +146,8 @@ margin-top: 15px;
   margin-top: 30px;
   color: rgba(211, 211, 211, 0.92);;
 }
+#skills {
+}
 @media (max-width: 500px) {
   .App {
     max-width: 100%;

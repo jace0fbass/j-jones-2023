@@ -14,6 +14,8 @@ export default function Resume() {
         >
           View Resume
         </a>
+        <h2>Skills:</h2>
+        <h3 id="skills" >HTML, CSS, Javascript, jQuery, React, Node, MongoDB, Mongoose ODM, Express, MySQL, Sequelize, RESTful API, OOP, TDD, ORM, MVC, Inquirer, Handlebars, Bootstrap, AJAX, Moment, Git, wxWidgets. </h3>
         <br></br>
         <br />
       </div>
