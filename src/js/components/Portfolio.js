@@ -1,20 +1,21 @@
 import React from "react";
-import moonstone from "../../images/moonstone.jpg";
-import socialApi from "../../images/socialMediaApi.jpg";
-import teamProfile from "../../images/teamProfileMaker.jpg";
-import tekB from "../../images/tekblahg.jpg";
-import artHub from "../../images/artHub.jpg";
-import ecomB from "../../images/ecomBackEnd.jpg";
-import empTrack from "../../images/empTracker.jpg";
-import musicalC from "../../images/musicalChairs.jpg";
-import read2me from "../../images/read2me.jpg";
-import workDay from "../../images/workDayScheduler.jpg";
+import ProjRender from './ProjRender'
+import ProjCardData from '../../ProjCardData'
 
 export default function Portfolio() {
+
+  const[projList, setProjList] = useState(ProjCardData)
+
+
   return (
     <div id="portCards">
       <div className="row row-cols-1 row-cols-md-3 g-4">
-        <div id="singleProj" className="col">
+        {
+          
+        }
+
+
+        {/* <div id="singleProj" className="col">
           <div className="card">
             <img
               src={moonstone}
@@ -34,6 +35,9 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+
+
+
         <div id="singleProj" className="col">
           <div className="card">
             <img
@@ -81,6 +85,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+
         <div id="singleProj" className="col">
           <div className="card">
             <img
@@ -104,9 +109,11 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+
       </div>
 
       <div className="row row-cols-1 row-cols-md-3 g-4">
+
         <div id="singleProj" className="col">
           <div className="card">
             <img
@@ -133,6 +140,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+
         <div id="singleProj" className="col">
           <div className="card">
             <img
@@ -159,6 +167,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+
         <div id="singleProj" className="col">
           <div className="card">
             <img src={ecomB} className="card-img-top" alt="..." height="263" />
@@ -179,8 +188,11 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+
       </div>
+
       <div className="row row-cols-1 row-cols-md-3 g-4">
+
         <div id="singleProj" className="col">
           <div className="card">
             <img
@@ -204,6 +216,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+
         <div id="singleProj" className="col">
           <div class="card">
             <img src={artHub} class="card-img-top" alt="..." height="263" />
@@ -219,6 +232,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+
         <div id="singleProj" className="col">
           <div class="card">
             <img src={workDay} class="card-img-top" alt="..." height="263" />
@@ -236,8 +250,10 @@ export default function Portfolio() {
               <br />
             </div>
           </div>
-        </div>
+        </div> */}
+
       </div>
+
     </div>
   );
 }
