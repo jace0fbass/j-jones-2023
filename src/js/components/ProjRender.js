@@ -18,16 +18,13 @@ function ProjectRender(props) {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p id="description">{description}</p>
-          <h4>Skills:</h4>
-          <h6 id="skillList">{skills}</h6>
+          <h6 id="skillList">Skills: {skills}</h6>
           <h5>
             Deployed Link: <a id="links" href={deployedLink}>{deployedLink}</a>
           </h5>
           <h5>
             Github Repository: <a id="links" href={githubLink}>{githubLink}</a>
           </h5>
-          <br></br>
-          <br />
         </div>
       </div>
     </div>

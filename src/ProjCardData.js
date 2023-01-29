@@ -34,7 +34,7 @@ export default [
     {
         id: 3,
         title: "tekBLAHg",
-        description: "A site where users can create blog posts.",
+        description: "A website where users can create blog posts.",
         skills: "HTML, CSS, Javascript, MVC, ORM, MySQL, Sequelize, OOP, Express, Node",
         imageRoute: tekB,
         alt: "tekBLAHg home page",
@@ -94,7 +94,7 @@ export default [
     {
         id: 9,
         title: "Art-Hub",
-        description: "An endless scroll style application that pulls art from The Met and Harvard art museums.",
+        description: "An endless scroll style application that fetches art from The Met and Harvard art museums.",
         skills: "Javascript, jQuery, REST API, Git",
         imageRoute: artHub,
         alt: "A piece of art",

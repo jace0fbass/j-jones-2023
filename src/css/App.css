@@ -1,5 +1,5 @@
 body {
-  background-color: #282c34;
+  background-color: #22252c;
 }
 .App {
   text-align: center;
@@ -16,6 +16,9 @@ body {
   border-width: 2px;
   color: rgba(6, 5, 13, 0.966);
   background-color: rgba(245, 245, 245, 0.92);
+}
+.card-body {
+  padding: 20px;
 }
 .card-title {
   font-size: 30px;
@@ -35,9 +38,10 @@ body {
   justify-content: space-evenly;
 }
 #singleProj {
-  margin: 55px;
-  width: 25rem;
+  margin: 70px;
+  width: 45rem;
   transition: transform 0.5s;
+  box-shadow: 0px 0px 100px 20px rgb(180, 180, 180);
 }
 #singleProj:hover {
   transform: rotate(2deg);
@@ -64,7 +68,7 @@ body {
 #cIcon {
   font-size: 50px;
   text-decoration: none;
-  margin:10px;
+  margin: 10px;
   padding: 20px;
 }
 #headshot {
@@ -120,7 +124,7 @@ body {
 #mailTo {
   font-size: 60px;
   text-decoration: none;
-  padding:20px;
+  padding: 20px;
 }
 
 .m-2 {
@@ -134,38 +138,49 @@ body {
   color: white;
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 .navbar {
- display: flex;
-margin-top: 15px;
+  display: flex;
+  margin-top: 15px;
+  
 }
 
 #footer {
   font-size: 30px;
   margin-top: 30px;
-  color: rgba(211, 211, 211, 0.92);;
+  color: rgba(211, 211, 211, 0.92);
 }
-#skills {
+#skillList {
+  font-size: 20px;
 }
+#description {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -40px;
+}
+
 @media (max-width: 500px) {
   .App {
     max-width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   #portCards {
     display: flex;
     flex-direction: column;
+    margin-left: 15px;
   }
   #AboutMe {
     display: block;
     margin-top: 25px;
     margin-bottom: 55px;
-    max-width: 100%
+    max-width: 100%;
   }
   #bio {
-    max-width:100%;
+    max-width: 100%;
     font-size: 40px;
     padding-bottom: 60px;
   }
@@ -188,87 +203,110 @@ margin-top: 15px;
     max-width: 100%;
   }
   #resumeText {
-    font-size: 50px; 
-    margin-bottom: 101px
+    font-size: 50px;
+    margin-bottom: 101px;
   }
-.App-header {
-  max-width: 100%;
-}
-#headerStyle {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(13, 12, 12, 0.942);
- }
- .navbar {
-  display: flex;
-  
- }
- #maName {
-  font-size: 100px;
-  margin: 10px;
-  margin-top: 15px;
- }
- #headshot {
-width: 90%;
- }
- #portCards {
-  display: flex;
-  justify-content: space-evenly;
-}
-#singleProj {
-  margin-top: 55px;
-  width: 86%;
-  transition: transform 0.5s;
-}
-#singleProj:hover {
-  transform: rotate(2deg);
-}
-#portCards {
-  display: flex;
-  justify-content: space-evenly;
-  
-}
-.card-title {
-  font-size: 50px;
-  margin-bottom: -20px;
-}
+  .App-header {
+    max-width: 100%;
+  }
+  #headerStyle {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(13, 12, 12, 0.942);
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  #maName {
+    font-size: 100px;
+    margin: 10px;
+    margin-top: 15px;
+  }
+  #headshot {
+    width: 90%;
+  }
+  #portCards {
+    display: flex;
+    justify-content: center;
+  }
+  #singleProj {
+    margin-top: 55px;
+    width: 86%;
+    transition: transform 0.5s;
+    padding: 0px;
+    box-shadow: 0px 0px 40px 5px rgb(180, 180, 180);
+  }
+  #singleProj:hover {
+    transform: rotate(2deg);
+  }
+  #portCards {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card-title {
+    font-size: 50px;
+    margin-bottom: -20px;
+  }
 
-h4, h6 {
-  font-size: 40px;
-}
-h4 {
-  margin-bottom: -70px;
-}
-#portfolioBtns {
-  margin-bottom: 15px;
-  background-color: rgba(19, 15, 40, 0.921);
-  color: white;
-  font-size: 55px;
-  padding: 15px;
-  border-radius: 3px;
-  border-color: rgba(255, 255, 255, 0.532);
-  text-decoration: none;
-}
-#footer {
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-.m-2 {
-  font-size: 50px;
-  font-weight: 500;
-}
-#contact {
-  background-color: rgba(245, 245, 245, 0.92);
-  padding-bottom: 50px;
-  border-radius: 3px;
-  border-color: rgba(255, 255, 255, 0.532);
-  font-size: 40px;
-  margin-top: 50px
-}
-#mailTo {
-  font-size: 70px;
-  text-decoration: none;
-  padding:20px;
-  font-weight: 500;
-}
+  h4,
+  h6 {
+    font-size: 40px;
   }
+  h4 {
+    margin-bottom: -70px;
+  }
+  #portfolioBtns {
+    margin-bottom: 15px;
+    background-color: rgba(19, 15, 40, 0.921);
+    color: white;
+    font-size: 55px;
+    padding: 15px;
+    border-radius: 3px;
+    border-color: rgba(255, 255, 255, 0.532);
+    text-decoration: none;
+  }
+  #footer {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .m-2 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  #contact {
+    background-color: rgba(245, 245, 245, 0.92);
+    padding-bottom: 50px;
+    border-radius: 3px;
+    border-color: rgba(255, 255, 255, 0.532);
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  #mailTo {
+    font-size: 70px;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 500;
+  }
+  #skillList {
+    font-size: 40px;
+  }
+  #description {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+  h5 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .card {
+    border-style: solid;
+    border-radius: 3px;
+    color: rgba(6, 5, 13, 0.966);
+    background-color: rgba(245, 245, 245, 0.92);
+  }
+  .row {
+    display: block;
+  }
+}
