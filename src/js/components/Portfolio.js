@@ -12,12 +12,12 @@ export default function Portfolio() {
           <ProjRender
             id={project.id}
             title={project.title}
-            desc={project.description}
-            tech={project.data}
+            description={project.description}
+            skills={project.skills}
             imageRoute={project.imageRoute}
             alt={project.alt}
-            link={project.deployedLink}
-            repo={project.githubLink}
+            deployedLink={project.deployedLink}
+            githubLink={project.githubLink}
           />
         ))}
       </div>

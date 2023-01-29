@@ -17,14 +17,14 @@ function ProjectRender(props) {
         <img src={imageRoute} className="card-img-top" alt={alt} height="263" />
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
-          <p>{description}</p>
+          <p id="description">{description}</p>
           <h4>Skills:</h4>
-          <h6>{skills}</h6>
+          <h6 id="skillList">{skills}</h6>
           <h5>
-            Deployed Link: <a href={deployedLink}>{deployedLink}</a>
+            Deployed Link: <a id="links" href={deployedLink}>{deployedLink}</a>
           </h5>
           <h5>
-            Github Repository: <a href={githubLink}>{githubLink}</a>
+            Github Repository: <a id="links" href={githubLink}>{githubLink}</a>
           </h5>
           <br></br>
           <br />
