@@ -1,14 +1,14 @@
 import React from "react";
-import moonstone from "../../images/moonstone.jpg";
-import socialApi from "../../images/socialMediaApi.jpg";
-import teamProfile from "../../images/teamProfileMaker.jpg";
-import tekB from "../../images/tekblahg.jpg";
-import artHub from "../../images/artHub.jpg";
-import ecomB from "../../images/ecomBackEnd.jpg";
-import empTrack from "../../images/empTracker.jpg";
-import musicalC from "../../images/musicalChairs.jpg";
-import read2me from "../../images/read2me.jpg";
-import workDay from "../../images/workDayScheduler.jpg";
+import moonstone from "../src/images/moonstone.jpg";
+import socialApi from "../src/images/socialMediaApi.jpg";
+import teamProfile from "../src/images/teamProfileMaker.jpg";
+import tekB from "../src/images/tekblahg.jpg";
+import artHub from "../src/images/artHub.jpg";
+import ecomB from "../src/images/ecomBackEnd.jpg";
+import empTrack from "../src/images/empTracker.jpg";
+import musicalC from "../src/images/musicalChairs.jpg";
+import read2me from "../src/images/read2me.jpg";
+import workDay from "../src/images/workDayScheduler.jpg";
 
 export default [
     {
