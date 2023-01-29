@@ -17,7 +17,7 @@ export default [
         description: "A website built for Moonstone Studio hair salon.",
         skills: "HTML, CSS, Bootstrap, Git",
         imageRoute: moonstone,
-        alt: "Moonsonte Studio's portfolio page.",
+        alt: "Moonstone Studio's portfolio page.",
         deployedLink: "laurenatmoonstone.com",
         githubLink: "https://github.com/jace0fbass/moonstone"
     },
@@ -27,7 +27,7 @@ export default [
         description: "An application to create profiles for employees.",
         skills: "HTML, CSS, Bootstrap, Javascript, Inquirer, OOP, TDD, Node, Git",
         imageRoute: teamProfile,
-        alt: "TeamprofileMaker being ran.",
+        alt: "TeamProfileMaker being ran.",
         deployedLink: "N/A",
         githubLink: "https://github.com/jace0fbass/team-profile-maker"
     },
@@ -37,7 +37,7 @@ export default [
         description: "A site where users can create blog posts.",
         skills: "HTML, CSS, Javascript, MVC, ORM, MySQL, Sequelize, OOP, Express, Node",
         imageRoute: tekB,
-        alt: "tekBLAHG home page",
+        alt: "tekBLAHg home page",
         deployedLink: "https://tekblog-app.herokuapp.com/login",
         githubLink: "https://github.com/jace0fbass/tech-blog"
     },
@@ -77,7 +77,7 @@ export default [
         description: "A backend built for an e-commerce website",
         skills: "Javascript, ORM, MySQL, Sequelize, OOP, Insomnia, Express, Node",
         imageRoute: ecomB,
-        alt: "Ecommerce backend being ran",
+        alt: "E-commerce backend being ran",
         deployedLink: "N/A",
         githubLink: "https://github.com/jace0fbass/E-com-back-end-build"
     },
@@ -104,7 +104,7 @@ export default [
     {
         id: 10,
         title: "Work Day Scheduler",
-        description: "An application the lets a user scedule their day by the hour.",
+        description: "An application the lets a user schedule their day by the hour.",
         skills: "HTML, CSS, Javascript, jQuery, Moment, Git",
         imageRoute: workDay,
         alt: "Work Day Scheduler in use",
