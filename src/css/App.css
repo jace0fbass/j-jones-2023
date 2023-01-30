@@ -1,3 +1,7 @@
+*{
+  font-family:monospace
+}
+
 body {
   background-color: #22252c;
 }
@@ -202,13 +206,13 @@ body {
   }
   #bio {
     max-width: 100%;
-    font-size: 40px;
+    font-size: 60px;
     padding-bottom: 60px;
   }
   #resumeBtn {
     background-color: rgba(19, 15, 40, 0.921);
     color: white;
-    font-size: 55px;
+    font-size: 65px;
     padding: 15px;
     border-radius: 3px;
     text-decoration: none;
@@ -220,11 +224,11 @@ body {
     padding: 20px;
     border-radius: 3px;
     margin-top: 40px;
-    font-size: 40px;
+    font-size: 60px;
     max-width: 100%;
   }
   #resumeText {
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 101px;
   }
   .App-header {
@@ -239,9 +243,10 @@ body {
     display: flex;
     justify-content: center;
     font-size: 20px;
+    
   }
   #maName {
-    font-size: 100px;
+    font-size: 150px;
     margin: 10px;
     margin-top: 15px;
   }
@@ -267,8 +272,9 @@ body {
     justify-content: space-evenly;
   }
   .card-title {
-    font-size: 50px;
-    margin-bottom: -20px;
+    font-size: 80px;
+    margin-bottom: -5px;
+    text-decoration: underline;
   }
 
   h4,
@@ -289,32 +295,32 @@ body {
     text-decoration: none;
   }
   #footer {
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 20px;
   }
   .m-2 {
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 80px;
+    font-weight: 800;
   }
   #contact {
     background-color: rgba(245, 245, 245, 0.92);
     padding-bottom: 50px;
     border-radius: 3px;
     border-color: rgba(255, 255, 255, 0.532);
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 50px;
   }
   #mailTo {
-    font-size: 70px;
+    font-size: 90px;
     text-decoration: none;
     padding: 20px;
     font-weight: 500;
   }
   #skillList {
-    font-size: 40px;
+    font-size: 60px;
   }
   #description {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
     margin-top: 0px;
   }
@@ -338,15 +344,24 @@ body {
     font-weight: 500;
   }
   .form-control {
-    width: 500px;
-    height: 100px;
+    width: 900px;
+    height: 200px;
     font-size: 50px
   }
   #contactButton {
+    margin-bottom: 15px;
+    background-color: rgba(19, 15, 40, 0.921);
+    color: white;
+    font-size: 75px;
+    padding: 15px;
+    border-radius: 3px;
+    border-color: rgba(255, 255, 255, 0.532);
+    text-decoration: none;
+  }
+  .form-label {
+    font-size: 90px;
+  }
+  #links {
     font-size: 50px;
-    font-weight: 500;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
