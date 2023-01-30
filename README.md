@@ -8,6 +8,9 @@ https://jace0fbass.github.io/j-jones-2023/
 In this challenge I have used React.js to create a Portfolio showcasing my biography, web development work, my resume, and ways to contact me.
 
 
+## Screenshot
+<img src="src\images\screenshot-20.jpg" />
+
 ## User Story
 
 ```md
