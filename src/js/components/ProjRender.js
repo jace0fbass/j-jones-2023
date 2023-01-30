@@ -12,8 +12,8 @@ function ProjectRender(props) {
     githubLink,
   } = props;
   return (
-    <div key={id} id="singleProj" className="col">
-      <div className="card">
+    <div key={id} id="singleProj" className="col card">
+      
         <img src={imageRoute} className="card-img-top" alt={alt} height="263" />
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
@@ -27,7 +27,7 @@ function ProjectRender(props) {
           </h5>
         </div>
       </div>
-    </div>
+   
   );
 }
 export default ProjectRender;
