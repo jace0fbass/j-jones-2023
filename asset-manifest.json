@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/j-jones-2023/static/css/main.f926dde4.css",
-    "main.js": "/j-jones-2023/static/js/main.f0bbb3ff.js",
+    "main.js": "/j-jones-2023/static/js/main.071e5f9f.js",
     "static/media/moonstone.jpg": "/j-jones-2023/static/media/moonstone.11dcc1d82b17582274fd.jpg",
     "static/media/musicalChairs.jpg": "/j-jones-2023/static/media/musicalChairs.745ed3739a5ef84aa0a4.jpg",
     "static/media/artHub.jpg": "/j-jones-2023/static/media/artHub.9504b0f9ab2ab1a0ed96.jpg",
@@ -15,10 +15,10 @@
     "static/media/Screenshot_20220927-170400_DuckDuckGo.jpg": "/j-jones-2023/static/media/Screenshot_20220927-170400_DuckDuckGo.395e6a6071ae174673b9.jpg",
     "index.html": "/j-jones-2023/index.html",
     "main.f926dde4.css.map": "/j-jones-2023/static/css/main.f926dde4.css.map",
-    "main.f0bbb3ff.js.map": "/j-jones-2023/static/js/main.f0bbb3ff.js.map"
+    "main.071e5f9f.js.map": "/j-jones-2023/static/js/main.071e5f9f.js.map"
   },
   "entrypoints": [
     "static/css/main.f926dde4.css",
-    "static/js/main.f0bbb3ff.js"
+    "static/js/main.071e5f9f.js"
   ]
 }
