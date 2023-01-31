@@ -96,7 +96,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-top: 25px;
-  margin-bottom: 55px;
 }
 #resume {
   max-width: 50%;
