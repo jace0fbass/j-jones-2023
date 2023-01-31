@@ -13,15 +13,12 @@ export default function App() {
     <div className="App">
       <Header className="App-header" />
       <Routes>
-          <Route path="/About" element={<AboutMe />} />
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Resume" element={<Resume />} />
         </Routes>
-      <AboutMe />
-      <Portfolio />
-      <Resume />
-      <Contact />
       <Footer />
     </div>
     </BrowserRouter>
