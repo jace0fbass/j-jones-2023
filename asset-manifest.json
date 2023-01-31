@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/j-jones-2023/static/css/main.f926dde4.css",
-    "main.js": "/j-jones-2023/static/js/main.45982f34.js",
+    "main.css": "/j-jones-2023/static/css/main.0eb85777.css",
+    "main.js": "/j-jones-2023/static/js/main.60a24855.js",
     "static/media/moonstone.jpg": "/j-jones-2023/static/media/moonstone.11dcc1d82b17582274fd.jpg",
     "static/media/musicalChairs.jpg": "/j-jones-2023/static/media/musicalChairs.745ed3739a5ef84aa0a4.jpg",
     "static/media/artHub.jpg": "/j-jones-2023/static/media/artHub.9504b0f9ab2ab1a0ed96.jpg",
@@ -14,11 +14,11 @@
     "static/media/empTracker.jpg": "/j-jones-2023/static/media/empTracker.2aef5a6338b1ba08a834.jpg",
     "static/media/Screenshot_20220927-170400_DuckDuckGo.jpg": "/j-jones-2023/static/media/Screenshot_20220927-170400_DuckDuckGo.395e6a6071ae174673b9.jpg",
     "index.html": "/j-jones-2023/index.html",
-    "main.f926dde4.css.map": "/j-jones-2023/static/css/main.f926dde4.css.map",
-    "main.45982f34.js.map": "/j-jones-2023/static/js/main.45982f34.js.map"
+    "main.0eb85777.css.map": "/j-jones-2023/static/css/main.0eb85777.css.map",
+    "main.60a24855.js.map": "/j-jones-2023/static/js/main.60a24855.js.map"
   },
   "entrypoints": [
-    "static/css/main.f926dde4.css",
-    "static/js/main.45982f34.js"
+    "static/css/main.0eb85777.css",
+    "static/js/main.60a24855.js"
   ]
 }
