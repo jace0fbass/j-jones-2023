@@ -185,12 +185,16 @@ body {
   padding-right: 15px;
   margin-top: 10px;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+  body {
+   
+  }
   .App {
-    max-width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
+    width: 100% ;
+    
   }
   #portCards {
     display: flex;
@@ -199,7 +203,9 @@ body {
     
   }
   #AboutMe {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 25px;
     margin-bottom: 55px;
     max-width: 100%;
@@ -251,7 +257,8 @@ body {
     margin-top: 15px;
   }
   #headshot {
-    width: 90%;
+    max-width: 50%;
+    
   }
   #portCards {
     display: flex;
