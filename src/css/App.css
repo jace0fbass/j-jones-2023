@@ -4,6 +4,7 @@
 
 body {
   background-color: #22252c;
+  justify-content: center;
 }
 .App {
   text-align: center;
@@ -140,8 +141,7 @@ body {
   background-color: #0e0e0e;
   color: white;
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-evenly;
 }
 
 .navbar {
@@ -185,7 +185,7 @@ body {
   padding-right: 15px;
   margin-top: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .App {
     max-width: 100%;
     display: flex;
@@ -195,6 +195,7 @@ body {
   #portCards {
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
     
   }
   #AboutMe {
