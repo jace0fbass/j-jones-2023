@@ -204,11 +204,7 @@ justify-content: space-around;
    
   }
   .App {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    width: 100% ;
-    
+  
   }
   #portCards {
     display: flex;
@@ -219,10 +215,10 @@ justify-content: space-around;
   #AboutMe {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    max-width: 100%;
     margin-top: 25px;
     margin-bottom: 55px;
-    max-width: 100%;
+    
   }
   #bio {
     max-width: 100%;
@@ -271,7 +267,7 @@ justify-content: space-around;
     margin-top: 15px;
   }
   #headshot {
-    max-width: 50%;
+    max-width: 100%;
     
   }
   #portCards {
