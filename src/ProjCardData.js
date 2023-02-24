@@ -9,10 +9,22 @@ import empTrack from "../src/images/empTracker.jpg";
 import musicalC from "../src/images/musicalChairs.jpg";
 import read2me from "../src/images/read2me.jpg";
 import workDay from "../src/images/workDayScheduler.jpg";
+import remembrall from "../src/images/remembrall.jpg";
+
 
 export default [
     {
         id: 1,
+        title: "Remembrall",
+        description: "A Harry Potter themed memory card game group project.",
+        skills: "React, MongoDB/Mongoose, GraphQL, Apollo Server, Apollo Client, Node.js, Express.js, Bootstrap, React-tsparticles, Adobe Express, Fontspace.com.",
+        imageRoute: remembrall,
+        alt: "Remembrall homepage.",
+        deployedLink: "https://lit-cove-97949.herokuapp.com/",
+        githubLink: "https://github.com/jonpfluger/remembrall-game"
+    },
+    {
+        id: 2,
         title: "laurenatmoonstone.com",
         description: "A website built for Moonstone Studio hair salon.",
         skills: "HTML, CSS, Bootstrap, Git",
@@ -22,7 +34,7 @@ export default [
         githubLink: "https://github.com/jace0fbass/moonstone"
     },
     {
-        id: 2,
+        id: 3,
         title: "Team Profile Maker",
         description: "An application to create profiles for employees.",
         skills: "HTML, CSS, Bootstrap, Javascript, Inquirer, OOP, TDD, Node, Git",
@@ -32,7 +44,7 @@ export default [
         githubLink: "https://github.com/jace0fbass/team-profile-maker"
     },
     {
-        id: 3,
+        id: 4,
         title: "tekBLAHg",
         description: "A website where users can create blog posts.",
         skills: "HTML, CSS, Javascript, MVC, ORM, MySQL, Sequelize, OOP, Express, Node",
@@ -42,7 +54,7 @@ export default [
         githubLink: "https://github.com/jace0fbass/tech-blog"
     },
     {
-        id: 4,
+        id: 5,
         title: "Employee Tracker Database",
         description: "An application that allows a manager to add, update, and delete employees, departments, jobs, and salaries.",
         skills: "Javascript, Inquirer, MySQL, OOP, Express, Node",
@@ -52,7 +64,7 @@ export default [
         githubLink: "https://github.com/jace0fbass/employee-tracker-app"
     },
     {
-        id: 5,
+        id: 6,
         title: "Social Media Backend API",
         description: "A build of a social media platform's backend and API.",
         skills: "Javascript, NoSQL, MongoDB, Mongoose, Postman, ORM, OOP, Express, Node",
@@ -62,7 +74,7 @@ export default [
         githubLink: "https://github.com/jace0fbass/social-media-api"
     },
     {
-        id: 6,
+        id: 7,
         title: "Musical Chairs",
         description: "A website where users can reserve tickets for concerts.",
         skills: "Javascript, Handlebars, MVC, ORM, MySQL, Sequelize, OOP, Express, Node",
@@ -72,7 +84,7 @@ export default [
         githubLink: "https://github.com/adriennecordell/musical-chairs"
     },
     {
-        id: 7,
+        id: 8,
         title: "E-commerce Backend API",
         description: "A backend built for an e-commerce website",
         skills: "Javascript, ORM, MySQL, Sequelize, OOP, Insomnia, Express, Node",
@@ -82,7 +94,7 @@ export default [
         githubLink: "https://github.com/jace0fbass/E-com-back-end-build"
     },
     {
-        id: 8,
+        id: 9,
         title: "Riid2mii (mobile)",
         description: "An application where users can hold their phone over text and it will read the text aloud after being scanned.",
         skills: "HTML, CSS, Javascript, Git",
@@ -92,7 +104,7 @@ export default [
         githubLink: "https://github.com/jace0fbass/read-2-me"
     },
     {
-        id: 9,
+        id:10,
         title: "Art-Hub",
         description: "An endless scroll style application that fetches art from The Met and Harvard art museums.",
         skills: "Javascript, jQuery, REST API, Git",
@@ -102,7 +114,7 @@ export default [
         githubLink: "https://github.com/ddwk21/art-hub"
     },
     {
-        id: 10,
+        id: 11,
         title: "Work Day Scheduler",
         description: "An application the lets a user schedule their day by the hour.",
         skills: "HTML, CSS, Javascript, jQuery, Moment, Git",
