@@ -44,6 +44,8 @@ function Contact() {
             jajones414@gmail.com
           </a>
          
+      <br></br>
+      <br></br>
         </div>
       </div>
     </div>
