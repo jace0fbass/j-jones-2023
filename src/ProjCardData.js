@@ -15,7 +15,7 @@ import remembrall from "../src/images/remembrall.jpg";
 export default [
     {
         id: 1,
-        title: "Remembrall",
+        title: "Remembrall (Front End)",
         description: "A Harry Potter themed memory card game group project.",
         skills: "React, MongoDB/Mongoose, GraphQL, Apollo Server, Apollo Client, Node.js, Express.js, Bootstrap, React-tsparticles, Adobe Express, Fontspace.com.",
         imageRoute: remembrall,
@@ -105,7 +105,7 @@ export default [
     },
     {
         id:10,
-        title: "Art-Hub",
+        title: "Art-Hub (Back End)",
         description: "An endless scroll style application that fetches art from The Met and Harvard art museums.",
         skills: "Javascript, jQuery, REST API, Git",
         imageRoute: artHub,

@@ -12,7 +12,7 @@ export default function Resume() {
         <h3 id="skills" >HTML, CSS, Javascript, jQuery, React, Node, MongoDB, Mongoose ODM, Express, MySQL, Sequelize, RESTful API, OOP, TDD, ORM, MVC, Inquirer, Handlebars, Bootstrap, AJAX, Moment, Git, wxWidgets. </h3>
         <a
           id="resumeBtn"
-          href="https://drive.google.com/file/d/1h_8IlL0DU9sexRt6aMdwtbYSm4DyQ4ce/view?usp=sharing"
+          href="https://drive.google.com/file/d/1zOIL7bXFdPRRc1L-JsjBpvSemujQKqit/view?usp=share_link"
         >
           View Resume
         </a>

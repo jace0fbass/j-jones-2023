@@ -42,6 +42,8 @@ export default function Footer() {
             </svg>
           </a>
             <br></br>
-            &copy; Jason Jones. Built with React.js</footer>
+            &copy; Jason Jones 
+            <br></br>
+            Built with React.js</footer>
     )
 }
