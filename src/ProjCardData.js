@@ -16,7 +16,7 @@ export default [
     {
         id: 1,
         title: "Remembrall",
-        description: "A Harry Potter themed memory card game group project. (Team Role: Front End)",
+        description: "A Harry Potter themed memory card game. (Team Role: Front End)",
         skills: "React, MongoDB/Mongoose, GraphQL, Apollo Server, Apollo Client, Node.js, Express.js, Bootstrap, React-tsparticles, Adobe Express, Fontspace.com.",
         imageRoute: remembrall,
         alt: "Remembrall homepage.",
@@ -95,8 +95,8 @@ export default [
     },
     {
         id: 9,
-        title: "Riid2mii (mobile)",
-        description: "An application where users can hold their phone over text and it will read the text aloud after being scanned.",
+        title: "Riid2mii",
+        description: "A mobile-only application where users can hold their phone over text and it will read the text aloud after being scanned.",
         skills: "HTML, CSS, Javascript, Git",
         imageRoute: read2me,
         alt: "Riid2mii being used to scan a book's cover",
