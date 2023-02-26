@@ -1,11 +1,11 @@
-*{
-  font-family:monospace
+* {
+  font-family: monospace;
 }
 
 body {
   background-color: #22252c;
   display: block;
-  max-width:100%
+  max-width: 100%;
 }
 .App {
   text-align: center;
@@ -71,7 +71,7 @@ body {
   text-decoration: none;
   margin: 10px;
   padding: 20px;
-  color: rgba(211, 211, 211, 0.92)
+  color: rgba(211, 211, 211, 0.92);
 }
 #headshot {
   border-radius: 3px;
@@ -79,7 +79,7 @@ body {
   border-width: 2px;
   background-color: rgba(6, 5, 13, 0.921);
   margin-top: 25px;
-  box-shadow: 0px 0px 15px 0px rgba(149, 149, 149, 0.92)
+  box-shadow: 0px 0px 15px 0px rgba(149, 149, 149, 0.92);
 }
 #bio {
   max-width: 50%;
@@ -120,11 +120,11 @@ body {
   margin-bottom: 20px;
 }
 #resume-card {
-max-width: 40%;
-margin-top: 60px;
-margin-left: 30%;
-margin-right: 30%;
-box-shadow: 5px 0px 15px 0px rgba(84, 82, 82, 0.92)
+  max-width: 40%;
+  margin-top: 60px;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 5px 0px 15px 0px rgba(84, 82, 82, 0.92);
 }
 .card-img-top {
   width: 100%;
@@ -140,7 +140,7 @@ box-shadow: 5px 0px 15px 0px rgba(84, 82, 82, 0.92)
   font-size: 50px;
   text-decoration: none;
   margin: 20px;
-  color: rgba(245, 245, 245, 0.92)
+  color: rgba(245, 245, 245, 0.92);
 }
 
 #headerStyle {
@@ -148,14 +148,13 @@ box-shadow: 5px 0px 15px 0px rgba(84, 82, 82, 0.92)
   color: white;
   display: flex;
   justify-content: space-evenly;
-justify-content: space-around;
-  width:100%;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .navbar {
   display: flex;
   margin-top: 15px;
-  
 }
 
 #footer {
@@ -174,7 +173,7 @@ justify-content: space-around;
   font-weight: 700;
   margin-top: -40px;
 }
-  
+
 #contactForm {
   display: block;
   justify-content: center;
@@ -183,7 +182,7 @@ justify-content: space-around;
   width: 500px;
   height: 100px;
   font-size: 40px;
-  font-weight: 800
+  font-weight: 800;
 }
 .form-label {
   font-size: 40px;
@@ -202,17 +201,36 @@ justify-content: space-around;
 
 @media screen and (max-width: 500px) {
   body {
-   
   }
   .App {
-    
   }
   #portCards {
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
+    max-width: 100%; 
+  }
+  
+  .col.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; 
+    box-shadow: 0px 0px 19px 2px rgb(180, 180, 180);
+    margin-bottom: 50px;
+  }
+  #singleProj {
+
+  }
+
+  #projCol {
+    margin:30px;
     
   }
+
+  #AboutMe.container {
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+
   #AboutMe {
     display: flex;
     flex-direction: column;
@@ -221,11 +239,10 @@ justify-content: space-around;
     margin-bottom: 35px;
   }
 
-#AboutMe.container {
-  margin-bottom: 10px;
-  max-width: 100%;
-  
-}
+  #AboutMe.container {
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
 
   #bio {
     max-width: 100%;
@@ -275,33 +292,20 @@ justify-content: space-around;
     max-width: 70%;
     margin-left: 15%;
   }
-  #portCards {
-    display: flex;
-    justify-content: center;
-  }
-  #singleProj {
-    margin-top: 55px;
-    width: 86%;
-    transition: transform 0.5s;
-    padding: 0px;
-    box-shadow: 0px 0px 40px 5px rgb(180, 180, 180);
-  }
-  #singleProj:hover {
-    transform: rotate(2deg);
-  }
-  #portCards {
-    display: flex;
-    justify-content: space-evenly;
+  
+  h5 {
+    font-size: 25px;
+    font-weight: 700;
   }
   .card-title {
-    font-size: 80px;
+    font-size: 30px;
     margin-bottom: -5px;
     text-decoration: underline;
   }
 
   h4,
   h6 {
-    font-size: 40px;
+    font-size: 20px;
   }
   h4 {
     margin-bottom: -70px;
@@ -323,7 +327,7 @@ justify-content: space-around;
   .m-2 {
     font-size: 22px;
     font-weight: 800;
-    margin: 10px
+    margin: 10px;
   }
   #contact {
     background-color: rgba(245, 245, 245, 0.92);
@@ -340,17 +344,14 @@ justify-content: space-around;
     font-weight: 500;
   }
   #skillList {
-    font-size: 60px;
+    font-size: 20px;
   }
   #description {
-    font-size: 60px;
+    font-size: 25px;
     font-weight: 700;
-    margin-top: 0px;
+    margin-top: 30px;
   }
-  h5 {
-    font-size: 40px;
-    font-weight: 700;
-  }
+  
   .card {
     border-style: solid;
     border-radius: 3px;
@@ -369,7 +370,7 @@ justify-content: space-around;
   .form-control {
     width: 900px;
     height: 200px;
-    font-size: 50px
+    font-size: 50px;
   }
   #contactButton {
     margin-bottom: 15px;
@@ -385,7 +386,7 @@ justify-content: space-around;
     font-size: 90px;
   }
   #links {
-    font-size: 50px;
+    font-size: 20px;
   }
   #navigate {
     margin-top: -10px;

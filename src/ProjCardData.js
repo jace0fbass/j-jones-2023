@@ -15,8 +15,8 @@ import remembrall from "../src/images/remembrall.jpg";
 export default [
     {
         id: 1,
-        title: "Remembrall (Front End)",
-        description: "A Harry Potter themed memory card game group project.",
+        title: "Remembrall",
+        description: "A Harry Potter themed memory card game group project. (Team Role: Front End)",
         skills: "React, MongoDB/Mongoose, GraphQL, Apollo Server, Apollo Client, Node.js, Express.js, Bootstrap, React-tsparticles, Adobe Express, Fontspace.com.",
         imageRoute: remembrall,
         alt: "Remembrall homepage.",
@@ -25,8 +25,8 @@ export default [
     },
     {
         id: 2,
-        title: "laurenatmoonstone.com",
-        description: "A website built for Moonstone Studio hair salon.",
+        title: "Moonstone Studio",
+        description: "A website built for Moonstone Studio hair salon in Menomonee Falls, WI.",
         skills: "HTML, CSS, Bootstrap, Git",
         imageRoute: moonstone,
         alt: "Moonstone Studio's portfolio page.",
@@ -76,7 +76,7 @@ export default [
     {
         id: 7,
         title: "Musical Chairs",
-        description: "A website where users can reserve tickets for concerts.",
+        description: "A website where users can reserve tickets for concerts. (Team Role: Front & Back End)",
         skills: "Javascript, Handlebars, MVC, ORM, MySQL, Sequelize, OOP, Express, Node",
         imageRoute: musicalC,
         alt: "Musical Chairs' home page.",
@@ -105,8 +105,8 @@ export default [
     },
     {
         id:10,
-        title: "Art-Hub (Back End)",
-        description: "An endless scroll style application that fetches art from The Met and Harvard art museums.",
+        title: "Art-Hub",
+        description: "An endless scroll style that fetches art from The Met and Harvard art museums. (Team Role: Back End)",
         skills: "Javascript, jQuery, REST API, Git",
         imageRoute: artHub,
         alt: "A piece of art",

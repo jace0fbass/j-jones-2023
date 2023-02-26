@@ -7,7 +7,7 @@ export default function Portfolio() {
 
   return (
     <div id="portCards">
-      <div className="row row-cols-1 row-cols-md-3 g-4">
+      <div id="projCol" className="row row-cols-1 row-cols-md-3 g-4">
         {projList.map((project) => (
           <ProjRender
             id={project.id}

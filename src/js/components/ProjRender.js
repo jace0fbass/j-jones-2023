@@ -12,7 +12,7 @@ function ProjectRender(props) {
     githubLink,
   } = props;
   return (
-    <div key={id} id="singleProj" className="col card">
+    <div key={id} className="col card ">
       
         <img src={imageRoute} className="card-img-top" alt={alt} height="263" />
         <div className="card-body">
@@ -20,10 +20,10 @@ function ProjectRender(props) {
           <p id="description">{description}</p>
           <h6 id="skillList">Skills: {skills}</h6>
           <h5>
-            Deployed Link: <a id="links" href={deployedLink}>{deployedLink}</a>
+            <a id="links" href={deployedLink}>Deployed Link</a>
           </h5>
           <h5>
-            Github Repository: <a id="links" href={githubLink}>{githubLink}</a>
+            <a id="links" href={githubLink}>Github Repository</a>
           </h5>
         </div>
       </div>
