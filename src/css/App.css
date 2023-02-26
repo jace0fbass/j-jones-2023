@@ -65,6 +65,8 @@ body {
   background-color: rgba(245, 245, 245, 0.92);
   border-color: rgba(255, 255, 255, 0.532);
   padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 3px;
   max-width: 50%;
   box-shadow: 5px 0px 15px 0px rgba(107, 106, 106, 0.92);
@@ -72,6 +74,12 @@ body {
 #contactCard {
   display: flex;
   justify-content: center;
+  font-size: 45px;
+}
+#mailTo {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px;
 }
 #cIcon {
   font-size: 50px;
@@ -137,11 +145,7 @@ body {
   width: 100%;
 }
 
-#mailTo {
-  font-size: 60px;
-  text-decoration: none;
-  padding: 20px;
-}
+
 
 .m-2 {
   font-size: 50px;
@@ -181,10 +185,7 @@ body {
   margin-top: -40px;
 }
 
-#contactForm {
-  display: block;
-  justify-content: center;
-}
+
 .form-control {
   width: 500px;
   height: 100px;
@@ -205,7 +206,16 @@ body {
   border-style: solid;
   border-width: 2px;
 }
-
+#skillsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  margin-top: -30px;
+}
+#resSkills {
+  font-size: 30px;
+  margin-top: 20px;
+}
 
 
 
@@ -429,5 +439,20 @@ body {
   #resSkills {
     font-size: 30px;
     margin-top: 20px;
+  }
+  #contact {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-radius: 3px;
+    max-width: 100%;
+    font-size: 30px;
+  }
+  #contactCard {
+  text-align: center;
+  }
+  #mailTo {
+    font-size: 20px;
   }
 }

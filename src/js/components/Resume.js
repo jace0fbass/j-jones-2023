@@ -10,7 +10,7 @@ export default function Resume() {
       <br></br>
       <a
         id="resumeBtn"
-        href="https://drive.google.com/file/d/1zOIL7bXFdPRRc1L-JsjBpvSemujQKqit/view?usp=share_link"
+        href="https://drive.google.com/file/d/1RyruBtoWPUxtgnzK698WegDk23sFRIBv/view?usp=share_link"
       >
         View Resume
       </a>
