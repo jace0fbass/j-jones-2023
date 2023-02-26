@@ -2,7 +2,6 @@
   font-family: monospace;
 }
 
-/* #22252c */
 body {
   
   background-image: linear-gradient(to bottom right, #081a27, #220e28);
@@ -10,9 +9,11 @@ body {
   max-width: 100%;
   
 }
+
 .App {
   text-align: center;
 }
+
 .App-header {
   display: flex;
   flex-direction: row;
@@ -20,6 +21,7 @@ body {
   color: rgb(255, 255, 255);
   max-width: 100%;
 }
+
 .card {
   border-style: solid;
   border-radius: 3px;
@@ -27,30 +29,34 @@ body {
   color: rgba(6, 5, 13, 0.966);
   background-color: rgba(245, 245, 245, 0.92);
 }
+
 .card-body {
   padding: 20px;
 }
+
 .card-title {
   font-size: 30px;
 }
+
 #portCards {
   display: flex;
   justify-content: center;
   max-width: 100%;
 }
 
-
 #projCol {
 
   transition: transform 0.5s;
  margin:20px;
 }
+
 #singleProj {
   margin: 70px;
   width: 45rem;
   transition: transform 0.5s;
   box-shadow: 0px 0px 55px 0px rgba(245, 245, 245, 0.92);
 }
+
 #singleProj:hover {
   transform: rotate(2deg);
 }
@@ -74,16 +80,19 @@ body {
   max-width: 50%;
   box-shadow: 5px 0px 15px 0px rgba(107, 106, 106, 0.92);
 }
+
 #contactCard {
   display: flex;
   justify-content: center;
   font-size: 45px;
 }
+
 #mailTo {
   font-size: 20px;
   text-decoration: none;
   padding: 20px;
 }
+
 #cIcon {
   font-size: 50px;
   text-decoration: none;
@@ -91,6 +100,7 @@ body {
   padding: 20px;
   color: rgba(211, 211, 211, 0.92);
 }
+
 #headshot {
   border-radius: 3px;
   border-style: none;
@@ -99,6 +109,7 @@ body {
   margin-top: 25px;
   box-shadow: 0px 0px 15px 0px rgba(149, 149, 149, 0.92);
 }
+
 #bio {
   max-width: 50%;
   font-size: 30px;
@@ -109,11 +120,13 @@ body {
   margin-left: 0px;
   background-color: rgba(245, 245, 245, 0.92);
 }
+
 #AboutMe {
   display: flex;
   justify-content: space-evenly;
   margin-top: 25px;
 }
+
 #resume {
   max-width: 100%;
   margin-left: 25%;
@@ -123,6 +136,7 @@ body {
   margin-top: 40px;
   margin-bottom: 50px;
 }
+
 #resumeBtn {
   background-color: rgba(255, 255, 255, 0.532);
   color: rgba(6, 5, 13, 0.921);
@@ -134,9 +148,11 @@ body {
   border-style: solid;
   border-width: 2px;
 }
+
 #resumeText {
   margin-bottom: 20px;
 }
+
 #resume-card {
   max-width: 40%;
   margin-top: 60px;
@@ -144,11 +160,10 @@ body {
   margin-right: 30%;
   box-shadow: 5px 0px 15px 0px rgba(84, 82, 82, 0.92);
 }
+
 .card-img-top {
   width: 100%;
 }
-
-
 
 .m-2 {
   font-size: 50px;
@@ -176,18 +191,20 @@ body {
   margin-top: 30px;
   color: rgba(211, 211, 211, 0.92);
 }
+
 #skillList {
   font-size: 20px;
 }
+
 #skills {
   margin-bottom: 40px;
 }
+
 #description {
   font-size: 20px;
   font-weight: 700;
   margin-top: -40px;
 }
-
 
 .form-control {
   width: 500px;
@@ -195,9 +212,11 @@ body {
   font-size: 40px;
   font-weight: 800;
 }
+
 .form-label {
   font-size: 40px;
 }
+
 #contactButton {
   background-color: rgba(255, 255, 255, 0.532);
   color: rgba(6, 5, 13, 0.921);
@@ -209,12 +228,14 @@ body {
   border-style: solid;
   border-width: 2px;
 }
+
 #skillsContainer {
   display: flex;
   justify-content: space-evenly;
   font-size: 25px;
   margin-top: -30px;
 }
+
 #resSkills {
   font-size: 30px;
   margin-top: 20px;
@@ -311,7 +332,7 @@ body {
     justify-content: center;
   }
   #maName {
-    font-size: 60px;
+    font-size: 50px;
     margin: 10px;
     margin-top: 15px;
   }
@@ -362,7 +383,7 @@ body {
     margin-bottom: 20px;
   }
   .m-2 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 800;
     margin: 10px;
   }
